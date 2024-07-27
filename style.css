@@ -1,6 +1,6 @@
 /* General */
 
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 * {
     margin: 0;
@@ -267,10 +267,12 @@ section {
     position: relative;
 }
 
-.about-containers {
+.about-container {
+    /* border: 1px solid blue; */
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    display: flex;
 }
 
 .about-details-container {
@@ -280,6 +282,7 @@ section {
 
 .about-containers, 
 .about-details-container {
+    /* border: 1px solid purple; */
     display: flex;
 }
 
@@ -298,7 +301,7 @@ section {
     flex: 1;
     background: white;
     border-radius: 2rem;
-    /* border: rgb(53,53,53) 0.1rem solid; */
+    border: rgb(53,53,53) 0.1rem solid;
     border-color: rgb (163,163,163);
     text-align: center;
 }
@@ -321,10 +324,12 @@ section {
 
 /* EXPERIENCE */
 #experience {
+    /* border: 1px solid red; */
     position: relative;
   }
   
   .experience-sub-title {
+    /* border: 1px solid blue; */
     color: rgb(85, 85, 85);
     font-weight: 600;
     font-size: 1.75rem;
@@ -332,12 +337,14 @@ section {
   }
   
   .experience-details-container {
+    /* border: 1px solid green; */
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
   
   .article-container {
+    /* border: 1px solid pink; */
     display: flex;
     text-align: initial;
     flex-wrap: wrap;
@@ -347,6 +354,7 @@ section {
   }
   
   article {
+    /* border: 1px solid orange; */
     display: flex;
     width: 10rem;
     justify-content: space-around;
