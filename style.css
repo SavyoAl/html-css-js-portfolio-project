@@ -227,6 +227,7 @@ section {
     padding: 1rem;
     width: 8rem;
     border-radius: 2rem;
+    cursor: pointer;
 }
 
 .btn-color-1, 
@@ -260,6 +261,8 @@ section {
 .btn-container {
     gap: 1rem;
 }
+
+
 
 /* ABOUT SECTION */
 
